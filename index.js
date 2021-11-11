@@ -13,3 +13,22 @@ window.onload = function(){
         }
     }
 }
+
+let burgerMenu = document.querySelector('.menu');
+let navigation = document.querySelector('.nav');
+
+burgerMenu.addEventListener('click', () => {
+	burgerMenu.classList.toggle('active');
+    navigation.classList.toggle("visible");
+});
+
+myTimer();
+
+var myVar = setInterval(function() {
+    myTimer();
+  }, 1000);
+  
+  function myTimer() {
+    var d = new Date();
+    document.getElementById("local-time").innerHTML = d.toLocaleTimeString();
+  }
