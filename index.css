@@ -985,11 +985,11 @@ display: block;
 	}
 
 	.blob-01 {
-		width: 75vw;
-		height: 75vw;
-		right: -60px;
+		width: 300px;
+		height: 300px;
+		right: -63px;
 		opacity: 0.6;
-		top: 19px;
+		top: 15px;
 	}
 
 	.blob-02 {
