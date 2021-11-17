@@ -9,29 +9,65 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
     </head>
+
     <body>
-        <header class="header">
-            <a href="home.html" class="logo" >MARIA PLATONOVA</a>
-            <button class="menu">
-                <span class="menu-line"></span>
-                <span class="menu-line"></span>
-            </button>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-item"><a href="about.html">About</a></li>
-                    <li class="nav-item"><a href="work.html">Work</a></li>
-                    <li class="nav-item"><a href="contacts.html">Contacts</a></li>
-                </ul>
-            </nav>
-        </header>
-        
-        <section class="work">
-            <a class="get-back" href="home.html"><div class="get-back-icon"></div>Back to home page</a>
-            <h1>Selected projects</h1>
-            <div style="margin-bottom: 48px;">
+        <div class="blob blob-01"></div>
+        <div class="blob blob-02"></div>
+        <div class="first-screen">
+            <header class="header">
+                <a href="home.html" class="logo" >MARIA PLATONOVA</a>
+                <button class="menu">
+                    <span class="menu-line"></span>
+                    <span class="menu-line"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="about.html">About</a></li>
+                        <li class="nav-item"><a href="work.html">Work</a></li>
+                        <li class="nav-item"><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <section class="hero">
+                <div class="hero-center">
+                <h1 class="headline">
+                    Web design <span class="break-mobile"></span><span class="break-tablet"></span>& development<br>
+                    to make <span class="break-mobile"></span>a difference<br>
+                </h1>
+                </div>
+                <div class="hero-bottom">
+                    <div class="tagline-text">
+                    <p data-aos-duration="1000" class="tagline text">
+                        Hi there, my name is Maria.<br>
+                        I’m UX & UI designer with software engineering background.<br>
+                        Scroll to explore some of my work<span class="break-mobile"></span> or feel free to <a href="" class="dede">say hi</a> <i class="smiley"></i>
+                    </p> 
+                    </div>
+                    <div class="mood">
+                        <div class="mood-animation"></div>
+                        <div class="audio">
+                            <audio id="player" src="audio/dream-slow-wisanga-main-version-02-19-20578.mp3"></audio>
+                            <button id="musicControl" class="button music-control music-control-play button-no-cta"></button> 
+                        </div> 
+                    </div> 
+                </div>
+            </section>
+        </div>
+
+        <!-- <section data-aos="fade-up" data-aos-duration="1000" class="about">
+                <h2 class="contact-title">Commited to find solutions</h2>
                 <p class="text">
-                    More projects are coming soon.                </p>
-            </div>
+                    As a software engineer who switched into a design field, 
+                    I'm using empathy and a minimalistic approach to create simple but effective solutions to complex problems
+                    while bridging the gaps between design and development.
+                </p>
+        </section> -->
+
+        <section data-aos="fade-up" data-aos-duration="1000" id="work" class="work">
+            <h4>
+                Selected projects
+            </h4>
 
             <div class="project-showcase">
                 <img data-aos="fade-up" data-aos-duration="1000" class="project-showcase-image" src="showcase/planetlover.png"/>
@@ -60,7 +96,7 @@
                 </div>
             </div>
         </section>
-
+                
         <section class="contact">
             <h2>Let's get in touch</h2>
 
@@ -94,9 +130,12 @@
                 © 2021 Maria Platonova
             </div>
         </footer>
-        <div class="blob blob-03"></div>
         <div class="blob blob-05"></div>
         <script src="index.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-BGM3H418XZ"></script>
         <script>
