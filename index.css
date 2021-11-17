@@ -987,8 +987,9 @@ display: block;
 	.blob-01 {
 		width: 75vw;
 		height: 75vw;
-		right: -80px;
-		top: 9px;
+		right: -60px;
+		opacity: 0.6;
+		top: 19px;
 	}
 
 	.blob-02 {
