@@ -53,8 +53,8 @@
 
 /* GENERAL ELEMENTS */
 
-body {
-    position: initial;
+html {
+	position: relative
 }
 
 html,
