@@ -1024,10 +1024,6 @@ display: block;
 /* START OF TABLET VERSION */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    body {
-        position: relative;
-    }
-
     .header {
         margin: var(--spacing-size-s) var(--spacing-size-m) 0;
     }
