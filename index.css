@@ -961,8 +961,8 @@ display: block;
 	}
 
 	.blob-01 {
-		width: 300px;
-		height: 300px;
+		width: 50vw;
+		height: 50vw;
 		right: 0;
 		top: 15px;
 	}
