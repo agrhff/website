@@ -54,7 +54,7 @@
 /* GENERAL ELEMENTS */
 
 body {
-    position: relative;
+    position: initial;
 }
 
 html,
@@ -826,10 +826,6 @@ display: block;
   /* START OF MOBILE VERSION */
 
 @media screen and (max-width: 767px) {
-    body {
-        position: relative;
-    }
-
 	.header {
 		justify-content: space-between;
         margin: var(--spacing-size-s) var(--spacing-size-s) 0;
@@ -1091,10 +1087,6 @@ display: block;
 
 
 @media screen and (min-width: 1920px) {
-        body {
-            position: relative;
-        }
-
         h1 {
             font-size: 6rem;
         }
